@@ -7,5 +7,7 @@ def view_data():
         'version': '2.0'
     }
     return data
+
+
 if __name__ == '__main__':
     app.run(debug=True) 

@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request # we also import 'render_template' to render HTML templates
+import requests
 
-BACKEND_URL = 'http://localhost:1000' 
+BACKEND_URL = 'http://localhost:5000' 
 app = Flask(__name__)
 
 @app.route('/todos')
